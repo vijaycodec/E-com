@@ -16,7 +16,7 @@ CybarWind admin management CMS
 2. Always use development branch for the work. (for frontend)
 
 3. Once checkout is done use following commands:
-    Install node packages: npm install
+    - Install node packages: npm install
     Install the composer dependencies: composer install
     Link the storage: php artisan storage:link
     For the database, you can either import the given SQL file or start a new one following the command lines.
