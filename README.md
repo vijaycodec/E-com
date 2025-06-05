@@ -16,13 +16,14 @@ CybarWind admin management CMS
 2. Always use development branch for the work. (for frontend)
 
 3. Once checkout is done use following commands:
-    - composer install  // to install vendor dependencies or composer update
-    - cp .env.example .env  // to copy env file once copied update DB credentials to match yours
-    - php artisan migrate  // to migrate all the DB changes
-    - php artisan db:seed  // to run seeder
-    - php artisan key:generate  // to generate key for laravel
-    - php artisan serve  // to run project
-    - login credential to be used (email: admin@example.com, password: password)
+    Install node packages: npm install
+    Install the composer dependencies: composer install
+    Link the storage: php artisan storage:link
+    For the database, you can either import the given SQL file or start a new one following the command lines.
+    Now migrate the tables: php artisan migrate
+    Run seeder: php artisan db:seed
+    Then generate the key: php artisan key:generate
+    And finally, run the project: php artisan serve
 
 4. Please use git [Conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) with proper message to push your changes to your branch.
 
