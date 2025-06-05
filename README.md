@@ -19,29 +19,8 @@ CybarWind admin management CMS
     - Install node packages: npm install
     - Install the composer dependencies: composer install
     - Link the storage: php artisan storage:link
-      - migrate the tables: php artisan migrate
-   -  Run seeder: php artisan db:seed
+    - migrate the tables: php artisan migrate
+    - Run seeder: php artisan db:seed
     - Then generate the key: php artisan key:generate
-   -  And finally, run the project: php artisan serve
-
-4. Please use git [Conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) with proper message to push your changes to your branch.
-
-5. Once changes are done please follow below points to work with git:
-    - Always use development branch to take pull and work with it.
-    - Create your branch by the use of [Conventional commits](https://www.conventionalcommits.org/en/v1.0.0/). No random branch names are allowed.
-    - Once code is done, please push into your branch with proper commit message as per [Conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) and write down proper commit description.
-    - Once commit description is done, please open a PR for development branch and assign it to your lead for review purpose.
-    - Once review is done. Merging can only be done by lead side, no other person is allowed to perform code merge.
-
-
-## Notes for release on staging and live server:
-
-1. Once code arrives in development branch and updates are ready to be deploy. Merge code in staging branch for staging server deployment.
-
-2. Once deployment is done please update a release for the same branch by using `npm run release` to generate release from command line and push release for respective branch by using `git push --follow-tags origin development` where development is the branch for which release is deployed.
-
-3. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit and release guidelines.
-
-
-
+    - And finally, run the project: php artisan serve
 
