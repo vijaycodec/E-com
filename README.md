@@ -7,15 +7,11 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-# CYBARWIND-CMS
+# E-COM
 CybarWind admin management CMS
 
 ## Steps and Commands to be used:
-
-1. Always use development branch for the work. (for backend)
-2. Always use development branch for the work. (for frontend)
-
-3. Once checkout is done use following commands:
+1. Once checkout is done use following commands:
     - Install node packages: npm install
     - Install the composer dependencies: composer install
     - Link the storage: php artisan storage:link
